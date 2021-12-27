@@ -1,8 +1,6 @@
 import cv2
 import numpy as np
 
-
-
 yolo = cv2.dnn.readNet("./yolov3.weights","./yolov3.cfg")  #Loading pretrained model 
 
 classes = []  # this will store all the classes pre trained model is able to identify 
