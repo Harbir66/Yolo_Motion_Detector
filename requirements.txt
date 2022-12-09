@@ -16,8 +16,8 @@ importlib-metadata==5.1.0
 Jinja2==3.1.2
 jsonschema==4.17.3
 MarkupSafe==2.1.1
-numpy
-opencv-python-headless
+numpy==1.21.5
+opencv-python==4.5.4.60
 packaging==22.0
 pandas==1.5.2
 Pillow==9.3.0
