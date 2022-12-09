@@ -27,7 +27,8 @@ st.write(
     ":dog: Try uploading an image to watch the Objects magically Detected. Full quality images can be downloaded from the sidebar. This code is open source and available [here](https://github.com/Harbir66/Yolo_Object_Detector) on GitHub. Special thanks to the [yolo](https://pjreddie.com/darknet/yolo/) :grin:"
 )
 st.sidebar.write("## Upload and download :gear: ")
-thresh=st.sidebar.select_slider("Threshold",options=[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0],value=0.5)
+# thresh=st.sidebar.select_slider("Threshold",options=[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0],value=0.5)/
+thresh=st.sidebar.slider("Threshold",min_value=0.0,max_value=1.0,value=0.5,step=0.01)
 # total_obects=0
 boxes =[]
 confidences=[]
