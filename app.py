@@ -13,7 +13,7 @@ st.set_page_config(layout="wide", page_title="Object Detection", page_icon=":eye
 # header {visibility: hidden;}
 # </style> """, unsafe_allow_html=True)
 
-yolo = cv2.dnn.readNet(".\yolov3-tiny.weights",".\yolov3-tiny.cfg")
+yolo = cv2.dnn.readNet("./yolov3-tiny.weights","./yolov3-tiny.cfg")
 # yolo = cv2.dnn.readNet("./yolov3.weights","./yolov3.cfg") 
 
 classes = []  
