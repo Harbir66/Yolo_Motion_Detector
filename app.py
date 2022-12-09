@@ -125,7 +125,7 @@ my_upload = st.sidebar.file_uploader("Upload an image", type=["png", "jpg", "jpe
 if my_upload is not None:
     fix_image(upload=my_upload)
 else:
-    fix_image(".\demo1.jpg")
+    fix_image("./demo1.jpg")
 
 st.sidebar.write("## Made with :heart: by Harbir Singh")
 st.sidebar.write("## 101917050")
